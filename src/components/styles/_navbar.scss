@@ -4,6 +4,10 @@ nav{
   justify-content: space-between;
   padding: 1rem 8vw;
   padding-top: 2rem;
+  position: sticky;
+  background:#f4f4f4;
+  z-index:5;
+  top:0px;
 
   .bars{
     display: none;
@@ -70,7 +74,6 @@ nav{
 @media(max-width:640px) and (min-width:281px)
 {
   nav{
-    
     padding: 1rem 10vw;
     padding-top: 2rem;
 
@@ -93,6 +96,26 @@ nav{
         height:4px;
         border-radius: 50px;
         background:$primary;
+      }
+    }
+
+    .mobile-list{
+      border: 1px solid red;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      width:0%;
+      top: 0px;
+      right:0px;
+      height: 105vh;
+      background:$primary;
+      overflow:hidden;
+
+      a{
+        color:white;
+        margin-bottom:.75rem;
       }
     }
 

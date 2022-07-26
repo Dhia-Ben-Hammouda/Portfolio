@@ -18,7 +18,7 @@ const Navbar = ()=>{
         <ul className="mobile-list">
           <a href="#home">Home</a>
           <a href="#services">Services</a>
-          <a href="#skills">Skills</a>
+          <a href="#skills">my Skills</a>
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
         </ul>

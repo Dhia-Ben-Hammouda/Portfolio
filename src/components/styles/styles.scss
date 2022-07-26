@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+$primary:dodgerblue;
+$secondary:#545454;
+
+html{
+  scroll-behavior:smooth;
+}
+
+*{
+  padding: 0px;
+  margin:0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  list-style: none;
+  user-select: none;
+}
+
+body{
+  background: #f4f4f4;
+}
+
+@import "./navbar.scss";
+@import "./home.scss";
+@import "./services.scss";
+@import "./skills.scss";

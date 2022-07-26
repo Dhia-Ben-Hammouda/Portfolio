@@ -1,0 +1,51 @@
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 8vw;
+  padding-top: 2rem;
+
+  .icon{
+    width:2.5rem;
+    height:2.5rem;
+    color:$primary;
+    animation:8s rotate infinite forwards linear;
+  }
+
+  @keyframes rotate{
+    from{
+      transform: rotate(0deg);
+    }
+
+    to{
+      transform: rotate(360deg);
+    }
+  }
+
+  ul{
+
+    a{
+      font-weight: 600;
+      color: $primary;
+      margin-left: 1.5rem;
+      position: relative;
+    }
+
+    a::after{
+      content:"";
+      background:$primary;
+      width:100%;
+      height:3px;
+      position:absolute;
+      bottom:-10px;
+      right:0px;
+      border-radius: 50px;
+      transform: scale(0 , 1);
+      transition: .7s;
+    }
+
+    a:hover::after{
+      transform: scale(1 , 1);
+    }
+  }
+}

@@ -3,6 +3,7 @@ import Navbar from "./Navbar.jsx";
 import Home from "./Home.jsx";
 import Services from "./Services.jsx";
 import Skills from "./Skills.jsx";
+import Contact from "./Contact.jsx";
 import "./styles/styles.scss"
 
 const App = ()=>{
@@ -12,6 +13,7 @@ const App = ()=>{
       <Home/>
       <Services/>
       <Skills/>
+      <Contact/>
     </>
   )
 }

@@ -89,3 +89,53 @@
 
   }
 }
+
+// tablets
+
+@media(max-width:1024px) and (min-width:700px)
+{
+
+}
+
+// mobile devices
+
+@media(max-width:640px) and (min-width:281px)
+{
+  #skills{
+    .container{
+      .header{
+        h1{
+          font-size: 18px;
+        }
+
+        h2{
+          font-size: 14px;
+        }
+      }
+
+      .wrapper{
+        grid-template-columns: repeat(3,auto);
+        grid-auto-rows: initial;
+
+        .skill{
+
+
+          .icon{
+            width:60%;
+            height:60%;
+          }
+
+
+        }
+      }
+    }
+  }
+}
+
+// Galaxy fold
+
+@media(max-width:280px)
+{
+
+}
+

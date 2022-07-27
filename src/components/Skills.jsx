@@ -53,7 +53,10 @@ const Skills = () => {
             </div>
           </div>
           <div className="about">
-
+            <h1>More about me</h1>
+            <p>My name is Dhia Ben Hamouda and i'm mainly a frontend web developer with over 2 years of experience .</p>
+            <p>I'm really passionate about making good-looking responsive websites from scratch .</p>
+            <p>I'm currently learning UI / UX Design , Backend Development and Mobile Development</p>
           </div>
         </div>
       </div>

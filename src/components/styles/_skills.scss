@@ -78,8 +78,21 @@
       }
 
       .about{
-        background:red;
         width:50%;
+        padding:2.5rem;
+
+        h1{
+          text-align: center;
+          color:$secondary;
+          margin-bottom: 1rem;
+        }
+
+        p{
+          color:$secondary;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 38px;
+        }
       }
     }
     
@@ -111,19 +124,31 @@
       }
 
       .wrapper{
-        grid-template-columns: repeat(3,auto);
-        grid-auto-rows: initial;
+        flex-direction: column;
 
-        .skill{
+        .skills{
+          width:100%;
 
+          .grid{
+            gap:8px;
 
-          .icon{
-            width:60%;
-            height:60%;
+            .skill{
+              height:75px;
+              width:75px;
+            }
           }
 
-
         }
+
+        .about{
+          width:100%;
+          padding:.5rem;
+
+          p{
+            font-size: 14px;
+          }
+        }
+        
       }
     }
   }

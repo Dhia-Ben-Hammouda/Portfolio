@@ -13,7 +13,7 @@ const Contact = () => {
           <h2>Get in touch</h2>
         </div>
         <div className="wrapper">
-          <form>
+          <form autoComplete="off">
             <div>
               <div>
                 <TextField label="Enter name" />

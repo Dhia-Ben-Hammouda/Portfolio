@@ -18,12 +18,12 @@ const Services = ()=>{
           <div className="service">
             <FaPalette className="icon"/>
             <h1>Frontend Development</h1>
-            <h2>I will create a stunning frontend for your website / mobile app using modern day frontend frameworks like Sass and React JS</h2>
+            <h2>I will help you create a stunning frontend for your website / mobile app using modern day frontend frameworks like Sass and React JS</h2>
           </div>
           <div className="service">
             <FaCode className="icon"/>
             <h1>Backend Development</h1>
-            <h2>I will create the backend of your website / mobile app using node JS Express JS and MongoDB</h2>
+            <h2>I will help you create the backend of your website / mobile app using node JS Express JS and MongoDB</h2>
           </div>
         </div>
       </div>

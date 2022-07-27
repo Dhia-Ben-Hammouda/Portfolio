@@ -29,6 +29,8 @@ const Contact = () => {
             </div>
             <div>
               <TextField
+                multiline
+                rows={4}
                 label="Enter msg"
               />
             </div>
@@ -37,7 +39,7 @@ const Contact = () => {
             </button>
           </form>
           <div className="info">
-            <IconContext.Provider value={{size:"1.5rem"}}>
+            <IconContext.Provider value={{ size: "1.5rem" }}>
               <div>
                 <div className="circle">
                   <FaPhoneAlt />

@@ -47,3 +47,38 @@
     }
   }
 }
+
+
+
+// tablets
+
+@media(max-width:1024px) and (min-width:700px)
+{
+
+}
+
+// mobile devices
+
+@media(max-width:640px) and (min-width:281px)
+{
+  #projects{
+    .container{
+      .header{
+        h1{
+          font-size: 18px;
+        }
+
+        h2{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+// Galaxy fold
+
+@media(max-width:280px)
+{
+
+}

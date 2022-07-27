@@ -2,6 +2,28 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 
 const Navbar = ()=>{
+
+  window.addEventListener("scroll" , ()=>{
+    if(window.scrollY > 150)
+    {
+      document.getElementsByTagName("nav")[0].classList.add("sticky");
+    }
+    else
+    {
+      document.getElementsByTagName("nav")[0].classList.remove("sticky");
+    }
+  })
+
+  function hamburgerBtnHandler()
+  {
+    document.querySelector(".mobile-list").classList.toggle("opened");
+
+    Array.from( document.getElementsByClassName(".bar") ).forEach((bar)=>{
+      bar.classList.toggle("white");
+    })
+  }
+
+
   return(
     <>
       <nav>
@@ -23,7 +45,7 @@ const Navbar = ()=>{
           <a href="#contact">Contact</a>
         </ul>
 
-        <div className="bars">
+        <div className="bars" onClick={hamburgerBtnHandler}>
           <div className="bar"></div>
           <div className="bar"></div>
           <div className="bar"></div>

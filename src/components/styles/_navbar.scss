@@ -1,13 +1,49 @@
+nav.sticky{
+  position: sticky;
+  top:0px;
+  background:$primary;
+  padding-top: 1rem;
+  transition: .3s;
+  .desktop-list{
+    a{
+      color:white;
+
+      &::after{
+        background:white;
+      }
+    }
+  }
+
+  .bars{
+    z-index:600;
+    .bar{
+      background:white;
+    }
+  }
+
+  .icon{
+    color:white;
+  }
+}
+
+
+.opened{
+  width:40% !important;
+}
+
+.white{
+  background:white;
+}
+
 nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 1rem 8vw;
   padding-top: 2rem;
-  position: sticky;
+  transition: .3s;
   background:#f4f4f4;
   z-index:5;
-  top:0px;
 
   .bars{
     display: none;
@@ -100,7 +136,6 @@ nav{
     }
 
     .mobile-list{
-      border: 1px solid red;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -112,6 +147,8 @@ nav{
       height: 105vh;
       background:$primary;
       overflow:hidden;
+      transition: .5s;
+      box-shadow: 0px 2px 4px rgba(0,0,0, 0.2);
 
       a{
         color:white;

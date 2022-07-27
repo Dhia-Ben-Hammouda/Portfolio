@@ -5,7 +5,7 @@ import { IconContext } from "react-icons";
 const Footer = ()=>{
   return(
     <footer>
-      <h2>Follow me on :</h2>
+      <h2>for more information ,Follow me on :</h2>
       <div>
         <a href="#">
           <FaFacebook className="icon"/>

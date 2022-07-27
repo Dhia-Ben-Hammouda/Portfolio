@@ -6,11 +6,59 @@ footer{
   h2{
     color:$secondary;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 600;
   }
 
-  a{
-    color:$secondary;  
+  div{
+    display: flex;
+    justify-content: space-around;
+    
+    a{
+      color:$secondary; 
+      margin:.5rem;
+      transition: .3s;
+      
+      .icon{
+        width:2.5rem;
+        height:2.5rem;
+      }
+    }
+
+    a:hover{
+      color:$primary;
+    }
   }
-  
+}
+
+
+
+// tablets 
+
+@media(min-width:700px) and (max-width:1024px)
+{
+
+}
+
+// mobile devices
+
+@media(min-width:281px) and (max-width:640px)
+{
+  footer{
+    h2{
+      font-size: 12px;
+      text-align: center;
+    }
+
+    div{
+
+      a{
+        .icon{
+          width:2rem;
+          height:2rem;
+        }
+      }
+
+    }
+
+  }
 }

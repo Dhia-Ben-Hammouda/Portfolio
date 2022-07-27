@@ -1,0 +1,49 @@
+#projects{
+  min-height:100vh;
+  padding:1rem 8vw;
+  display: flex;
+  justify-content: center;
+
+  .container{
+    width:100%;
+
+    .header{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 2.5rem;
+
+      h1{
+        color: $secondary;
+        font-size: 25px;
+      }
+
+      h2{
+        color: $primary;
+        font-size: 18px;
+        position: relative;
+
+        &::after , &::before{
+          content:"";
+          background:$secondary;
+          width:30px;
+          height:4px;
+          border-radius: 50px;
+          position: absolute;
+        }
+
+        &::after{
+          right:-40px;
+          top:50%;
+          transform: translateY(-50%);
+        }
+
+        &::before{
+          left:-40px;
+          top:50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+}

@@ -1,3 +1,33 @@
+.opened{
+  width:40% !important;
+}
+
+.white{
+  background:white !important;
+}
+
+.bars.clicked{
+  z-index:5000;
+  flex-direction: row;
+
+  .bar{
+    position:absolute;
+
+    &:first-of-type{
+      transform: rotate(45deg);
+    }
+
+    &:last-of-type{
+      transform: rotate(-45deg);
+    }
+
+    &:nth-of-type(2){
+      display: none;
+    }
+
+  }
+}
+
 nav.sticky{
   position: sticky;
   top:0px;
@@ -13,26 +43,16 @@ nav.sticky{
       }
     }
   }
-
   .bars{
     z-index:600;
+    overflow: hidden;
     .bar{
       background:white;
     }
   }
-
   .icon{
     color:white;
   }
-}
-
-
-.opened{
-  width:40% !important;
-}
-
-.white{
-  background:white !important;
 }
 
 nav{
@@ -97,6 +117,15 @@ nav{
   }
 }
 
+
+
+
+
+
+
+
+
+
 // tablets
 
 @media(max-width:1024px) and (min-width:700px)
@@ -105,10 +134,44 @@ nav{
 }
 
 
+
+
+
+
+
+
 // mobile devices
 
 @media(max-width:640px) and (min-width:281px)
 {
+  nav.sticky{
+    position: sticky;
+    top:0px;
+    background:#f4f4f4;
+    padding-top: 2rem;
+    transition: .3s;
+    .desktop-list{
+      a{
+        color:white;
+  
+        &::after{
+          background:white;
+        }
+      }
+    }
+  
+    .bars{
+      z-index:600;
+      .bar{
+        background:$primary;
+      }
+    }
+  
+    .icon{
+      color:$primary;
+    }
+  }
+
   nav{
     padding: 1rem 10vw;
     padding-top: 2rem;
@@ -154,12 +217,22 @@ nav{
 
       a{
         color:white;
+        font-weight: 500;
         margin-bottom:.75rem;
       }
     }
 
   }
 }
+
+
+
+
+
+
+
+
+
 
 
 // Galaxy fold

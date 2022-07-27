@@ -46,45 +46,7 @@
     }
 
     .wrapper{
-      width: 100%;
-      display: grid;
-      grid-template-columns: repeat(auto-fill , minmax(250px , 1fr));
-      grid-auto-rows: 250px;
-      grid:0px;
-
-      .skill{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        .icon{
-          width:80px;
-          height: 80px;
-        }
       
-      }
-
-      .figma{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        img{
-          width:20%;
-        }
-      }
-
-      .mysql{
-  
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        img{
-          width:35%;
-        }
-        
-      }
     }
 
   }

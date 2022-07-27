@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 const Navbar = ()=>{
 
   window.addEventListener("scroll" , ()=>{
-    if(window.scrollY > 150)
+    if(window.scrollY > 120)
     {
       document.getElementsByTagName("nav")[0].classList.add("sticky");
     }
@@ -18,7 +18,7 @@ const Navbar = ()=>{
   {
     document.querySelector(".mobile-list").classList.toggle("opened");
 
-    Array.from( document.getElementsByClassName(".bar") ).forEach((bar)=>{
+    Array.from( document.getElementsByClassName("bar") ).forEach((bar)=>{
       bar.classList.toggle("white");
     })
   }

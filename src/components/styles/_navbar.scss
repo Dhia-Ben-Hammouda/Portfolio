@@ -32,7 +32,7 @@ nav.sticky{
 }
 
 .white{
-  background:white;
+  background:white !important;
 }
 
 nav{
@@ -124,6 +124,7 @@ nav{
       justify-content: space-between;
       position: relative;
       
+      
       width:25px;
       height:20px;
 
@@ -132,6 +133,7 @@ nav{
         height:4px;
         border-radius: 50px;
         background:$primary;
+        transition: .3s;
       }
     }
 

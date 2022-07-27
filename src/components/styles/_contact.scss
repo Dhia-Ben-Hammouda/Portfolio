@@ -48,6 +48,7 @@
 
     .wrapper{
       display: flex;
+      justify-content: center;
       margin-top: 5rem;
 
       form{
@@ -99,7 +100,7 @@
 
           .circle{
             background:$primary;
-            padding:1.5rem;
+            padding:1.25rem;
             border-radius: 50%;
             color:white;
           }
@@ -114,4 +115,59 @@
       }
     }
   }
+}
+
+
+// tablets 
+
+@media(min-width:700px) and (max-width:1024px)
+{
+
+}
+
+// mobile devices
+
+@media(min-width:281px) and (max-width:640px)
+{
+  #contact{
+    .header{
+      margin-bottom: .5rem;
+    }
+  }
+
+  .wrapper{
+    flex-direction: column;
+
+    form{
+      width: 100% !important;
+      margin-bottom: 1rem;
+    }
+
+    .info{
+      width:100% !important;
+      margin-left: 0px !important;
+
+      
+
+      div{
+        margin-bottom: .5rem;
+
+        .circle{
+          padding: .75rem !important;
+        }
+
+        h2{
+          font-size: 12px !important;
+          
+        }
+      }
+    }
+  }
+}
+
+// Galaxy fold
+
+@media(max-width:280px)
+{
+  
 }

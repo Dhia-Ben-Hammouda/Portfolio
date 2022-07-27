@@ -15,37 +15,37 @@ const Skills = () => {
           <div className="skills">
             <div className="grid">
               <div className="skill">
-                <FaHtml5 size={"4rem"} color="#F25320" />
+                <FaHtml5 className="icon" color="#F25320" />
               </div>
               <div className="skill">
-                <FaCss3Alt size={"4rem"} color="#279FD5" />
+                <FaCss3Alt className="icon" color="#279FD5" />
               </div>
               <div className="skill">
-                <FaJs size={"4rem"} color="#E4D04B" />
+                <FaJs className="icon" color="#E4D04B" />
               </div>
               <div className="skill">
-                <FaReact size={"4rem"} color="#5CCFEE" />
+                <FaReact className="icon" color="#5CCFEE" />
               </div>
               <div className="skill">
-                <FaNodeJs size={"4rem"} color="#4F9640" />
+                <FaNodeJs className="icon" color="#4F9640" />
               </div>
               <div className="skill">
-                <FaGitAlt size={"4rem"} color="#E44C30" />
+                <FaGitAlt className="icon" color="#E44C30" />
               </div>
               <div className="skill">
-                <FaSass size={"4rem"} color="#CF649A" />
+                <FaSass className="icon" color="#CF649A" />
               </div>
               <div className="skill">
-                <SiMaterialui size={"4rem"} color="#00A7F2" />
+                <SiMaterialui className="icon" color="#00A7F2" />
               </div>
               <div className="skill">
-                <SiMongodb size={"4rem"} color="#449E45" />
+                <SiMongodb className="icon" color="#449E45" />
               </div>
               <div className="skill">
-                <SiTailwindcss size={"4rem"} color="#06ADC9" />
+                <SiTailwindcss className="icon" color="#06ADC9" />
               </div>
               <div className="skill">
-                <SiTypescript size={"4rem"} color="#00A7F2" />
+                <SiTypescript className="icon" color="#00A7F2" />
               </div>
               <div className="skill">
                 <img src={figma} alt="" />

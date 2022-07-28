@@ -142,15 +142,18 @@
 
       .wrapper {
         flex-direction: column;
+        margin-top:2rem;
 
         form {
           width: 100% !important;
           margin-bottom: 1rem;
+          padding:.25rem;
         }
 
         .info {
           width: 100% !important;
           margin-left: 0px !important;
+          padding-inline: .25rem;
 
           div {
             margin-bottom: .5rem;

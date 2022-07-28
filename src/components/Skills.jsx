@@ -3,6 +3,7 @@ import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaSass, FaNodeJs, FaGitAlt } from "r
 import { SiTailwindcss, SiMongodb, SiMaterialui, SiTypescript } from "react-icons/si";
 import figma from "./assets/figma.png";
 
+
 const Skills = () => {
   return (
     <section id="skills">
@@ -54,9 +55,9 @@ const Skills = () => {
           </div>
           <div className="about">
             <h1>More about me</h1>
-            <p>My name is Dhia Ben Hamouda and i'm mainly a frontend web developer with over 2 years of experience .</p>
-            <p>I'm really passionate about making good-looking responsive websites from scratch .</p>
-            <p>I'm currently learning UI / UX Design , Backend Development and Mobile Development</p>
+            <p>My name is Dhia Ben Hamouda and i'm mainly a frontend web developer with over 2 years of experience .
+            I'm really passionate about making good-looking responsive websites from scratch .
+            I'm currently learning UI / UX Design , Backend Development and Mobile Development</p>
           </div>
         </div>
       </div>

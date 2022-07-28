@@ -89,7 +89,7 @@
 
         h1{
           text-align: center;
-          color:$secondary;
+          color:$primary;
           margin-bottom: 1rem;
         }
 
@@ -97,6 +97,7 @@
           color:$secondary;
           font-size: 18px;
           line-height: 38px;
+          font-weight: 500;
         }
       }
     }

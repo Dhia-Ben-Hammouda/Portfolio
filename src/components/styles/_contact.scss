@@ -120,7 +120,32 @@
 
 // tablets 
 
-@media(min-width:700px) and (max-width:1024px) {}
+@media(min-width:700px) and (max-width:1024px) {
+  #contact{
+    .container{
+      .wrapper{
+        flex-direction: column;
+
+        form{
+          width:100%;
+          padding:0rem;
+          margin-bottom: 1rem;
+        }
+
+        .info{
+          width:100%;
+          margin-left: 0px !important;
+          padding-inline: .25rem;
+          margin-top:1rem;
+
+          div{
+            margin-bottom:1rem;
+          }
+        }
+      }
+    }
+  }
+}
 
 // mobile devices
 

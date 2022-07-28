@@ -95,7 +95,6 @@
 
         p{
           color:$secondary;
-          font-weight: 400;
           font-size: 18px;
           line-height: 38px;
         }
@@ -110,7 +109,21 @@
 
 @media(max-width:1024px) and (min-width:700px)
 {
+  #skills{
+    .container{
+      .wrapper{
+        flex-direction: column;
 
+        .skills{
+          width:100%;
+        }
+
+        .about{
+          width:100%;
+        }
+      }
+    }
+  }
 }
 
 // mobile devices

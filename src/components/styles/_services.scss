@@ -90,7 +90,18 @@
 
 @media(max-width:1024px) and (min-width:700px)
 {
+  #services{
+    .container{
+      .wrapper{
+        flex-direction: column;
 
+        .service{
+          width: 100%;
+          margin-bottom:1rem;
+        }
+      }
+    }
+  }
 }
 
 // mobile devices

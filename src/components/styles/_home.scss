@@ -63,7 +63,27 @@
 
 @media(max-width:1024px) and (min-width:700px)
 {
+  #home{
+    .container{
+      flex-direction: column;
 
+      .text{
+        width:100%;
+      }
+
+      .illustration{
+        width:100%;
+        margin-top:1rem;
+        justify-content: center;
+
+        img{
+          width:60%;
+          margin-top:3rem;
+        }
+      }
+
+    }
+  }
 }
 
 // mobile devices

@@ -2,7 +2,7 @@ import React from "react";
 import project1 from "./assets/project1.png";
 import project2 from "./assets/project2.png";
 import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaSass, FaNodeJs, FaGitAlt } from "react-icons/fa";
-import { SiTailwindcss, SiMongodb, SiMaterialui, SiTypescript, SiRedux } from "react-icons/si";
+import { SiTailwindcss, SiMongodb, SiMaterialui , SiRedux } from "react-icons/si";
 import { FaEye, FaGithub } from "react-icons/fa";
 
 const Projects = () => {

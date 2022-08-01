@@ -6,6 +6,7 @@ import Skills from "./Skills.jsx";
 import Projects from "./Projects.jsx";
 import Contact from "./Contact.jsx";
 import Footer from "./Footer.jsx";
+import Button from "./Button.jsx";
 import "./styles/styles.scss"
 
 const App = ()=>{
@@ -18,6 +19,7 @@ const App = ()=>{
       <Projects/>
       <Contact/>
       <Footer/>
+      <Button/>
     </>
   )
 }

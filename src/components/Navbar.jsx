@@ -1,24 +1,32 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
+import { useEffect } from "react";
 
-const Navbar = ()=>{
+const Navbar = () => {
 
-  window.addEventListener("scroll" , ()=>{
-    if(window.scrollY > 0)
-    {
+  useEffect(() => {
+
+    window.addEventListener("scroll", makeSticky);
+
+
+    return ()=>{window.removeEventListener("scroll" , makeSticky)}
+  }, [])
+
+
+  function makeSticky() {
+
+    if (window.scrollY > 0) {
       document.getElementsByTagName("nav")[0].classList.add("sticky");
     }
-    else
-    {
+    else {
       document.getElementsByTagName("nav")[0].classList.remove("sticky");
     }
-  })
+  }
 
-  function hamburgerBtnHandler()
-  {
+  function hamburgerBtnHandler() {
     document.querySelector(".mobile-list").classList.toggle("opened");
 
-    Array.from( document.getElementsByClassName("bar") ).forEach((bar)=>{
+    Array.from(document.getElementsByClassName("bar")).forEach((bar) => {
       bar.classList.toggle("white");
     })
 
@@ -26,10 +34,10 @@ const Navbar = ()=>{
   }
 
 
-  return(
+  return (
     <>
       <nav>
-        <FaReact className="icon"/>
+        <FaReact className="icon" />
 
         <ul className="desktop-list">
           <a href="#home">Home</a>

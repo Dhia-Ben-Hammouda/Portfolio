@@ -8,9 +8,9 @@ const Button = () => {
 
   useEffect(() => {
 
-    window.addEventListener("scroll", makeVisible);
+    document.addEventListener("scroll", makeVisible);
 
-    return () => { window.removeEventListener("scroll", makeVisible) }
+    return () => { document.removeEventListener("scroll", makeVisible) }
   }, []);
 
   function makeVisible() {

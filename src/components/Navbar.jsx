@@ -6,10 +6,10 @@ const Navbar = () => {
 
   useEffect(() => {
 
-    window.addEventListener("scroll", makeSticky);
+    document.addEventListener("scroll", makeSticky);
 
 
-    return ()=>{window.removeEventListener("scroll" , makeSticky)}
+    return ()=>{document.removeEventListener("scroll" , makeSticky)}
   }, [])
 
 

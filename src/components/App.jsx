@@ -15,7 +15,7 @@ import "./styles/styles.scss"
 const App = ()=>{
 
   useEffect(()=>{
-    Aos.init({duration:750});
+    Aos.init({duration:750,disable:"phone"});
   })
 
   return(

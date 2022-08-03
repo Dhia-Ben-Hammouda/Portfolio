@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <section id="home">
       <div className="container">
-        <div className="text">
+        <div data-aos="fade-right" className="text">
           <h2>Hey , my name is</h2>
           <h1>Dhia Ben Hamouda</h1>
           <h2>And i'm a <span>
@@ -22,7 +22,7 @@ const Home = () => {
             Portfolio
           </a>
         </div>
-        <div className="illustration">
+        <div data-aos="fade-left" className="illustration">
           <img src={img} alt="illustration"/>
         </div>
       </div>

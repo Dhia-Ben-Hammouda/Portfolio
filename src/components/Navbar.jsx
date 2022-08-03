@@ -3,15 +3,13 @@ import { FaReact } from "react-icons/fa";
 import { useEffect } from "react";
 
 const Navbar = () => {
-
+  
   useEffect(() => {
 
     document.addEventListener("scroll", makeSticky);
 
-
     return ()=>{document.removeEventListener("scroll" , makeSticky)}
   }, [])
-
 
   function makeSticky() {
 

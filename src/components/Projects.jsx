@@ -9,12 +9,12 @@ const Projects = () => {
   return (
     <section id="projects">
       <div className="container">
-        <div className="header">
+        <div className="header" data-aos="fade-down" data-aos-delay="0">
           <h1>Projects</h1>
           <h2>Things i've created</h2>
         </div>
         <div className="wrapper">
-          <div className="project">
+          <div className="project" data-aos="fade-down" data-aos-delay="100">
             <div className="left">
               <img src={project1} alt="" />
             </div>
@@ -43,7 +43,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="project">
+          <div className="project" data-aos="fade-down" data-aos-delay="200">
             <div className="left">
               <img src={project2} alt="" />
             </div>

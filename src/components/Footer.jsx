@@ -3,7 +3,7 @@ import { FaFacebook , FaGithub , FaLinkedin , FaYoutube } from "react-icons/fa";
 
 const Footer = ()=>{
   return(
-    <footer>
+    <footer >
       <h2>for more information , Follow me on :</h2>
       <div>
         <a href="https://www.facebook.com/dhiabenhamouda10" target="_blank" rel="noreferrer">

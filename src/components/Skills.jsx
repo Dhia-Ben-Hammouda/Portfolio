@@ -8,12 +8,12 @@ const Skills = () => {
   return (
     <section id="skills">
       <div className="container">
-        <div className="header">
+        <div className="header" data-aos="fade-down" data-aos-delay="0">
           <h1>Skills</h1>
           <h2>technologies i've used</h2>
         </div>
         <div className="wrapper">
-          <div className="skills">
+          <div className="skills" data-aos="fade-right" data-aos-delay="200">
             <div className="grid">
               <div className="skill">
                 <FaHtml5 className="icon" color="#F25320" />
@@ -53,7 +53,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="about">
+          <div className="about" data-aos="fade-left" data-aos-delay="200">
             <h1>More about me</h1>
             <p>My name is Dhia Ben Hamouda and i'm mainly a frontend web developer with over 2 years of experience .
             I'm really passionate about making good-looking responsive websites from scratch .

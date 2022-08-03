@@ -12,8 +12,8 @@ const Contact = () => {
           <h1>Contact</h1>
           <h2>Get in touch</h2>
         </div>
-        <div className="wrapper" data-aos="fade-right" data-aos-delay="100">
-          <form autoComplete="off" >
+        <div className="wrapper">
+          <form autoComplete="off" data-aos="fade-right" data-aos-delay="100">
             <div>
               <div>
                 <TextField label="Enter name" />
@@ -38,7 +38,7 @@ const Contact = () => {
               Send message
             </button>
           </form>
-          <div className="info">
+          <div className="info" data-aos="fade-left" data-aos-delay="100">
             <IconContext.Provider value={{ size: "1.5rem" }}>
               <div>
                 <div className="circle">

@@ -1,25 +1,7 @@
 import React from "react";
 import { FaReact } from "react-icons/fa";
-import { useEffect } from "react";
 
 const Navbar = () => {
-  
-  useEffect(() => {
-
-    document.addEventListener("scroll", makeSticky);
-
-    return ()=>{document.removeEventListener("scroll" , makeSticky)}
-  }, [])
-
-  function makeSticky() {
-
-    if (window.scrollY > 0) {
-      document.getElementsByTagName("nav")[0].classList.add("sticky");
-    }
-    else {
-      document.getElementsByTagName("nav")[0].classList.remove("sticky");
-    }
-  }
 
   function hamburgerBtnHandler() {
     document.querySelector(".mobile-list").classList.toggle("opened");

@@ -28,33 +28,6 @@
   }
 }
 
-nav.sticky{
-  position: sticky;
-  top:0px;
-  background:$primary;
-  padding-top: 1rem;
-  transition: .5s;
-  .desktop-list{
-    a{
-      color:white;
-
-      &::after{
-        background:white;
-      }
-    }
-  }
-  .bars{
-    z-index:600;
-    overflow: hidden;
-    .bar{
-      background:white;
-    }
-  }
-  .icon{
-    color:white;
-  }
-}
-
 nav{
   display: flex;
   align-items: center;
@@ -64,6 +37,8 @@ nav{
   transition: .3s;
   background:#f4f4f4;
   z-index:5;
+  position: sticky;
+  top:0px;
 
   .bars{
     display: none;
